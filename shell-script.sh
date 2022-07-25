@@ -1,4 +1,4 @@
-udo chown -R ec2-user:ec2-user /opt
+sudo chown -R ec2-user:ec2-user /opt
 cd /opt
 sudo yum install wget -y
 wget https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u282b08.tar.gz
